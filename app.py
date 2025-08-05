@@ -22,8 +22,8 @@ load_dotenv()
 MODEL_NAME = "Recognai/zeroshot_selectra_medium"  # Modelo en español para zero-shot
 CATEGORIAS = {
     "logística": re.compile(r"pedido|entrega|env[íi]o|llegada|reparto|transporte|seguimiento", re.IGNORECASE),
-    "pagos": re.compile(r"pago|tarjeta|factura|cobro|d[eé]bito|cr[eé]dito|transacci[oó]n", re.IGNORECASE),
-    "producto defectuoso": re.compile(r"defectuoso|roto|dañado|mal estado|no funciona|averiado|falla", re.IGNORECASE),
+    "pagos": re.compile(r"pago|tarjeta|cobro|d[eé]bito|cr[eé]dito|transacci[oó]n", re.IGNORECASE),
+    "producto defectuoso": re.compile(r"defectuoso|roto|rota|dañado|mal estado|no funciona|averiado|falla|pantalla", re.IGNORECASE),
     "cuenta": re.compile(r"cuenta|login|registro|acceso|contraseña|usuario|perfil", re.IGNORECASE),
     "facturación": re.compile(r"factura|recibo|impuesto|cargo|precio|valor|subtotal", re.IGNORECASE)
 }
