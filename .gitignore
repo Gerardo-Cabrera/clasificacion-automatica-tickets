@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+*.db
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos temporales y de salida
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.~
+*.orig
+*.out
+*.csv
+!tickets.csv
+!*.example.csv
+
+# Archivos de resultados generados
+/tickets_clasificados_*.csv
+/tickets_urgentes_*.csv
+/tickets_db.json
+
+# Archivos de configuración y secretos
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Test outputs
+test_tickets.csv
+
+# Git
+/.gitattributes
+/.gitmodules
+

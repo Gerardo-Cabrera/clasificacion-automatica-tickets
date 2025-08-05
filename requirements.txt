@@ -1,0 +1,7 @@
+torch
+transformers
+pandas
+gradio
+python-dotenv
+requests
+unittest
