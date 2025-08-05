@@ -29,7 +29,7 @@ CATEGORIAS = {
 }
 URGENCY_PATTERNS = [  # Patrones
     r"\b(urgente|inmediato|cr[íi]tico|asap|necesito ayuda ya)\b",
-    r"\b(no funciona|error|fallo|roto|averiado|defectuoso|no sirve)\b",
+    r"\b(no funciona|error|fallo|roto|rota|averiado|defectuoso|no sirve|pantalla rota|pantalla|impuesto|incorrecto|incorrectos)\b",
     r"!\s*!+",
     r"\b(prioridad [1-3]|nivel [1-3])\b"
 ]
