@@ -87,6 +87,7 @@ TICKET_API_MODE=zendesk
 ---
 
 ## Demo
+Se puede probar el sistema en el siguiente link:
 https://gerardocabrera-clasificacion-automatica-tickets.hf.space/
 
-Desarrollado por [Neo Gerardo].
+Desarrollado por [Neo-Gerardo].
